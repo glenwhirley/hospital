@@ -12,4 +12,12 @@ public class Employee {
     public void setPatientHealth(int patientHealth) {
         this.patientHealth = patientHealth;
     }
+
+    @Override
+    public String toString() {
+        String employeeDetails = "The patient's health for this employee is " + patientHealth;
+
+        return employeeDetails;
+    }
+
 }
